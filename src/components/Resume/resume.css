@@ -1,0 +1,20 @@
+:root {
+	--text-regular: 12pt;
+	--text-med: 24px;
+	--text-large: 48px;
+}
+
+
+body {
+	background-color: black;
+	color: hsl(215, 80%, 80%);
+	font-size: var(--text-regular);
+
+}
+
+#resume-whole {
+	width: 8.5in;
+}
+
+h1 { font-size: var(--text-large);}
+h2,h3 {font-size: var(--text-med);}
