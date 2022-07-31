@@ -1,20 +1,84 @@
 :root {
-	--text-regular: 12pt;
-	--text-med: 24px;
-	--text-large: 48px;
+	--text-regular: 12px;
+	--text-med: 18px;
+	--text-large: 40px;
 }
-
 
 body {
 	background-color: black;
-	color: hsl(215, 80%, 80%);
+	font-family: "Times New Roman";
 	font-size: var(--text-regular);
-
-}
-
-#resume-whole {
 	width: 8.5in;
 }
 
-h1 { font-size: var(--text-large);}
-h2,h3 {font-size: var(--text-med);}
+.align-right {
+	text-align: right;
+}
+
+.add-bullet {
+	display: list-item;
+	list-style-type: disc;
+}
+
+.list-collapse {
+	padding-inline-start: 0px;
+}
+
+.remove-borders {
+	border: none !important;
+}
+
+h2#headline {
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+}
+
+#resume-whole {
+	width: 8in;
+	/* height: 11in; */
+	margin: 0 auto;
+	/* padding: 0.5in; */
+	background-color: whitesmoke;
+	color: black;
+}
+
+#section-professional-experience {
+	margin-top: 24px;
+  }
+
+
+ul {
+	list-style-type:square
+}
+
+.employment {
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+.left-border {
+	border-left: 2px solid black;
+}
+
+h1 {
+	font-size: var(--text-large);
+}
+
+h2,h3,h4 {
+	font-size: var(--text-med);
+}
+/* These two are for testing purposes */
+
+/* h2 { color: hsl(160, 31%, 26%)} */
+/* h3 { 	color: hsl(28, 31%, 26%)} */
+
+h2 {
+	margin-bottom: 0;
+	border-bottom: 1px solid black;
+}
+
+h3,
+h4 {
+	margin: 0;
+}
