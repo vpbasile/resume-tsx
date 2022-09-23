@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Resume
+
+Content made interchangeable with JSON files: (real content and dummy content)
+Form made interchangeable with JSX templates: Print, Black, DarkBlue
+
+Typescript, React, React Router
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
